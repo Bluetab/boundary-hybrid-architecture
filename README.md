@@ -22,10 +22,10 @@ First, the infrastructure must be deployed.
 
 You need:
 
-1. AWS Credentials located in "~/.aws/credentials" with a configured profile name *example-aws-profile* for AWS resources.
-2. GCP Credentials located in "~/.gcp/example-gcp-credentials.json".
-3. RSA Key Pair generated locally and sored as "~/.ssh/id_rsa_boundary.pub" and "~/.ssh/id_rsa_boundary".
-4. Boundary binaries that will be used by the Workers and Controllers. In "/usr/local/bin/" folder and boundary with the name ("/usr/local/bin/boundary").
+1. AWS Credentials located in *~/.aws/credentials* with a configured profile name *example-aws-profile* for AWS resources.
+2. GCP Credentials located in *~/.gcp/example-gcp-credentials.json*.
+3. RSA Key Pair generated locally and stored as *~/.ssh/id_rsa_boundary.pub* and *~/.ssh/id_rsa_boundary*.
+4. Boundary binaries that will be used by the Workers and Controllers. In */usr/local/bin/* folder and boundary with the name (*/usr/local/bin/boundary*).
 
 You can change these values if you want.
 
