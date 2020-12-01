@@ -10,6 +10,12 @@ It is recommended to check READMEs in that repository first, although it is not 
 
 **Please note this is a development and testing scenario and it is not production-ready as every secret is in plain text, no redundancy is configured etc.**
 
+## Boundary AWS-GCP POC's Architecture
+
+Communications between client and boundary elements are described in the following diagram:
+
+![Boundary architecture](functional-arch.png)
+
 ## Requirements
 
 - Terraform 0.13.5
@@ -125,9 +131,3 @@ These default credentials are RDS user and password and boundary users. Values a
 - Boundary users:
   - username: (jim|mike|todd|etc...)
   - password: foofoofoo
-
-## Boundary AWS-GCP POC's Architecture
-
-Communications between client and boundary elements are described in the following diagram:
-
-![Boundary architecture](functional-arch.png)
